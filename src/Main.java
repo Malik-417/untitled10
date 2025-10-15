@@ -1,13 +1,40 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+public class Main {
+    public static void main (String[] ards){
+        System.out.println("Task 1");
+        System.out.println();
+        // Создаем переменные для хранения ФИО
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+        // полное ФИО
+        String fullName = lastName + " " + firstName + " " + middleName;
+
+        System.out.println("Ф.И.О. сотрудника - " + fullName);
+        System.out.println();
+
+        System.out.println("Task 2");
+        System.out.println();
+
+        // пишем все заглавными
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
+        System.out.println();
+
+        System.out.println("Task 3");
+        System.out.println();
+
+        // исходники
+        String firstName1 = "Семён";
+        String middleName1 = "Семёнович";
+        String lastName1 = "Иванов";
+
+        // полное ФИО
+        String fullName1 = lastName1 + " " + firstName1 + " " + middleName1;
+
+        // заменяем ё на е
+        String fullName2 = fullName1.replace("ё", "е");
+
+        System.out.println("Данные Ф. И. О. сотрудника — " + fullName2);
+
     }
 }
