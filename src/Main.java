@@ -4,8 +4,8 @@ public class Main {
         System.out.println();
         // Создаем переменные для хранения ФИО
         String firstName = "Ivan";
-        String lastName = "Ivanov";
         String middleName = "Ivanovich";
+        String lastName = "Ivanov";
 
         // полное ФИО
         String fullName = lastName + " " + firstName + " " + middleName;
@@ -25,8 +25,8 @@ public class Main {
 
         // исходники
         String firstName1 = "Семён";
-        String lastName1 = "Иванов";
         String middleName1 = "Семёнович";
+        String lastName1 = "Иванов";
 
         // полное ФИО
         String fullName1 = lastName1 + " " + firstName1 + " " + middleName1;
