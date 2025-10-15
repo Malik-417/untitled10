@@ -3,12 +3,12 @@ public class Main {
         System.out.println("Task 1");
         System.out.println();
         // Создаем переменные для хранения ФИО
-        String frisName = "Ivanov";
-        String lastName = "Ivan";
+        String firstName = "Ivan";
+        String lastName = "Ivanov";
         String middleName = "Ivanovich";
 
         // полное ФИО
-        String fullName = frisName + " " + lastName + " " + middleName;
+        String fullName = lastName + " " + firstName + " " + middleName;
 
         System.out.println("Ф.И.О. сотрудника - " + fullName);
         System.out.println();
@@ -24,12 +24,12 @@ public class Main {
         System.out.println();
 
         // исходники
-        String frisName1 = "Иванов";
-        String lastName1 = "Семён";
+        String firstName1 = "Семён";
+        String lastName1 = "Иванов";
         String middleName1 = "Семёнович";
 
         // полное ФИО
-        String fullName1 = frisName1 + " " + lastName1 + " " + middleName1;
+        String fullName1 = lastName1 + " " + firstName1 + " " + middleName1;
 
         // заменяем ё на е
         String fullName2 = fullName1.replace("ё", "е");
